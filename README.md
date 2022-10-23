@@ -13,5 +13,14 @@ auth - Authorise To Google Drive
 channel - Register A Google Drive Folder
 list - Check How Many Folders Are Registered
 ul - Upload Any File In The Directory To Telegram
+find - Get Info About Any Anime Or Make An Upload Banner
+batch - Reply To A Batch Torrent File (This Func Is Dead)
+eval - Execute Python Commands Also For Troubleshooting
 logs - Upload Bot Logs To Telegram For Troubleshooting
-bash - Execute Shell Commands
+bash - Execute Shell Commands for Troubleshooting
+```
+# Deploying
+- Fill Config In _init.py_
+- Build The Docker
+- Or Manually Install The Requirements And Modules Needed
+- Run Using `start.sh` or `python3 -m bot`
