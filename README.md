@@ -1,3 +1,17 @@
-# AiringAnimes
+# Auto Airing Animes Uploader Bot
 
-Nach Mere Aage Tab Pekhunga Paisa
+Bot Is Very Easy And Convenient To Use It Can Upload In Main Channel,
+As Well As In Sub Channels
+
+# Commands
+```
+uptime - How Much Time Is It Been Me Working ?
+start - Check If I Am Alive
+rss - Fetch RSS With Numbers
+tor - Uploads Anime Using The Position Given In RSS syntax. - /tor <number> ex. /tor 0
+auth - Authorise To Google Drive
+channel - Register A Google Drive Folder
+list - Check How Many Folders Are Registered
+ul - Upload Any File In The Directory To Telegram
+logs - Upload Bot Logs To Telegram For Troubleshooting
+bash - Execute Shell Commands
