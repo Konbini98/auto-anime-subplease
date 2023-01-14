@@ -9,17 +9,17 @@ from logging.handlers import RotatingFileHandler
 from pyrogram import Client
 
 class Config(object):
-  BOT_TOKEN = str("")
-  API_ID = int()
-  API_HASH = str("")
+  BOT_TOKEN = str("5833103468:AAF3bnqY-y8Ld44KGskBO43SocsjUR-DDNE")
+  API_ID = int(22681384)
+  API_HASH = str("14ae45755537c723aab0564a80d723a9")
   DOWNLOAD_LOCATION = str("bot/downloads/")
-  LOG_CHANNEL = "Ongoing_Animes_480p"
-  UPDATES_CHANNEL = "FIERCENETWORK"
+  LOG_CHANNEL = "uploadanimechan"
+  UPDATES_CHANNEL = "mainanimechan"
   DOWNLOAD_DIR = "downloads/"
-  AUTH_USERS = [5703071595]
-  BOT_USERNAME = "LOL_BOT"
+  AUTH_USERS = [5840630594]
+  BOT_USERNAME = "AutoAnimeV4Bot"
   SESSION_STRING = ""
-  DATABASE_URL = ''
+  DATABASE_URL = 'mongodb+srv://autoani:autoani@autoanime.x7uprzw.mongodb.net/?retryWrites=true&w=majority'
   
 cluster = MongoClient(Config.DATABASE_URL)
 db = cluster[Config.BOT_USERNAME]
